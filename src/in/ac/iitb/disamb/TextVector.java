@@ -7,7 +7,7 @@ import java.util.Scanner;
 import weka.core.Stopwords;
 import weka.core.stemmers.SnowballStemmer;
 public class TextVector {
-	String text;
+	public String text;
 	Map<String, Double> comps;
 	double length;
 	public TextVector () {

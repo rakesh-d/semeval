@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 public class NormTextVectors {
-	List<TextVector> normVectors;
+	public List<TextVector> normVectors;
 	
 	Map<String, Double> idf;
 	Double avgLen;
